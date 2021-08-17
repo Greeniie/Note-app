@@ -1,13 +1,67 @@
-body {
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: brandon grotesque !important;
+ 
 }
+
+.app {
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+  
+}
+
+.body {
+   max-width: 70%;
+   margin: auto;
+   padding-top: 30px;
+}
+
+
+h1 {
+  margin-left: 50px;
+}
+
+.btn {  
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 50px;
+} 
+
+
+
+h2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+h3, p {
+  text-align: center;
+}
+
+
+.card {
+  height: 350px;
+}
+
+.form {
+  width : 70%;
+  margin: auto;
+  margin-top: 50px;
+  
+}
+
+.notepad {
+   width : 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+
